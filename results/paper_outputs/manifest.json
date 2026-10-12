@@ -1,0 +1,58 @@
+{
+ "results": "/home/claude/repo/DA-ADKG/results/results_paper.json",
+ "results_sha256": "595d283c65c32c8ff3ba77930111d7609f2a7fad1b55e83d053d7682bf007970",
+ "provenance": {
+  "schema": "dadkg-experiments/2",
+  "created_utc": "2026-10-12T15:23:14Z",
+  "source_sha256": {
+   "crypto.py": "7ee9e863916c4ee091d8c555245b06d52057602340c7fe399246ec63e9f15085",
+   "protocol.py": "3587af01e46632f646070fe78960db21d34a3be2bea5e085a37956ab69ef3931",
+   "network.py": "10ecd819b45800ac3e3a1d7479168e0919b6d45bf186a48a3b62e916bf2a1e50",
+   "baselines.py": "d7c3011c64dc50d0fc522b8a4b8fb9ff9790ffcbd212d3227b9cf24455950b58",
+   "experiments.py": "84a8e6c3b7aa66a4363d1a2922105734c03deb976659a3eb7a962b8a10bfab65"
+  },
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "machine": "x86_64",
+  "system": "Linux",
+  "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "cpu_count": 2,
+  "unit_costs": {
+   "mul": 0.0013857510000434559,
+   "mul_small": 0.00014009749997967447,
+   "dmul": 0.002497340000047643,
+   "add": 4.229000069244648e-06,
+   "inv": 5.910499965011695e-06,
+   "sqrt": 0.00015013949996500742,
+   "keccak_call": 6.943500011402648e-06,
+   "keccak_byte": 1.1550292944306761e-08,
+   "source": "measured: pure-Python reference implementation (crypto.py) on this machine"
+  },
+  "cost_model_fit_ts": [
+   1,
+   2,
+   3
+  ],
+  "net": {
+   "lat_mu": 4.2,
+   "lat_sigma": 0.8,
+   "bandwidth_bps": 100000000.0,
+   "msg_overhead_bytes": 0,
+   "latency_quantile": 0.999,
+   "window_safety": 2.0
+  },
+  "latency_bound_s": 0.7901207998186944,
+  "byte_unit": "bytes; MB = 1e6 bytes; MiB = 2^20 bytes",
+  "time_unit": "simulated seconds"
+ },
+ "outputs": {
+  "figure_pdf": "9e0ab4c00124a2bbb731618a7b7909d8bb6f4ad41c0fe6b855b073155dc58b2d",
+  "figure_png": "61ea0a916e528b409ec83ee2377c837b60db49002cc4ed7fd2a2f9fa6b4651f1",
+  "table_I_properties.tex": "3413df3bcefa438d4c20d554ba1b057a8b7de852df1f3df1ccc1b6e9fe1bb6b9",
+  "table_II_comparison.tex": "d0ec80984a5d503bdb5aa0f12395c15a64d654ca7f8710641d195261edb0e28c",
+  "table_III_scalability.tex": "e50b8f18d9268448042ef44f9cc6e0dae19af91eb3c0519eb5270798d26ad08c",
+  "table_scenarios.tex": "214f665502a0b9991c3e62cf961758f62faed35bea913799d1a54d5451054952",
+  "table_gas.tex": "c6e73dc3b26ce2de11b539f8c0866dba7f9e350eef797b0910e5a05e4a523331"
+ }
+}

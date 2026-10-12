@@ -228,3 +228,15 @@ The review documents are not part of this repository. The docstrings state every
 
 - **Fixed given the inputs.** Protocol outcomes, gas, bytes and simulated times are deterministic given the seed, the unit costs and the source code. This holds for any number of workers and any `PYTHONHASHSEED` (integration check I6).
 - **Keys differ by design.** Cryptographic keys are drawn from the operating system's random generator, so they differ between runs. No outcome depends on their values.
+
+---
+
+## 10. Citation
+
+If you use this artifact, please cite the article:
+
+```
+J. Gao et al., "DA-ADKG: Dependable Asynchronous Distributed Key Generation
+with Blockchain-Enforced Accountability," IEEE Transactions on Dependable
+and Secure Computing.
+```
